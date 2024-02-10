@@ -1,16 +1,16 @@
 /* ¡Escribe tus comandos en este archivo! */
 
-const ejercicio02 = '';
+const ejercicio02 = 'SELECT * FROM movies WHERE duration<90;';
 
-const ejercicio03 = '';
+const ejercicio03 = 'SELECT * FROM movies WHERE year>=1930 AND year<=1940;';
 
-const ejercicio04 = '';
+const ejercicio04 ='SELECT * FROM movies WHERE title LIKE '%til%';';
 
-const ejercicio05 = '';
+const ejercicio05 = 'SELECT * FROM movies WHERE cardinality(actors)=1;';
 
-const ejercicio06 = '';
+const ejercicio06 = 'SELECT title, AVG(rating) AS prom FROM movies, unnest(ratings) AS rating GROUP BY title ORDER BY prom DESC;';
 
-const ejercicio07 = '';
+const ejercicio07 = "SELECT actors FROM movies WHERE title LIKE '%Fast and%' AND year=2016;";
 
 module.exports = {
    ejercicio02,
